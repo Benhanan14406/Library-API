@@ -14,12 +14,12 @@ class Genre(models.Model):
         return self.nama_genre
 
     def daftar_buku(self):
-        return self.buku_set.all()
+        return self.buku_genre.all()
 
 class Buku(models.Model):
     judul = models.CharField(max_length=1000)
     pengarang = models.CharField(max_length=1000)
-    genre = models.ForeignKey(Genre, on_delete=models.SET_NULL, null=True)
+    genre = models.ForeignKey(Genre, on_delete=models.SET_NULL, null=True, related_name='buku_genre')
 
     def __str__(self):
         return self.judul
