@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f97853f0-c652-4347-bee9-3c097633c328" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Library-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Library-API.iml" afterDir="false" />
+    <list default="true" id="f97853f0-c652-4347-bee9-3c097633c328" name="Changes" comment="Created the models:&#10;- Perpustakaan&#10;- Genre&#10;- Buku">
+      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_API/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_API/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library_API/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_API/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +62,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Library-API" type="Python.DjangoServer" factoryName="Django server">
       <module name="Library-API" />
@@ -94,11 +108,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752508801914</updated>
-      <workItem from="1752508802929" duration="749000" />
+      <workItem from="1752508802929" duration="1530000" />
     </task>
+    <task id="LOCAL-00001" summary="Created the models:&#10;- Perpustakaan&#10;- Genre&#10;- Buku">
+      <option name="closed" value="true" />
+      <created>1752509684066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752509684066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created the models:&#10;- Perpustakaan&#10;- Genre&#10;- Buku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the models:&#10;- Perpustakaan&#10;- Genre&#10;- Buku" />
   </component>
 </project>
