@@ -4,14 +4,14 @@ from .models import *
 class PerpustakanSerializer(serializers.ModelSerializer):
     class Meta:
         model = Perpustakaan
-        fields = ['id', 'nama_perpustakaan', 'alamat_perpustakaan']
+        fields = '__all__'
 
 class BukuSerializer(serializers.ModelSerializer):
     class Meta:
         model = Buku
-        fields = ['id', 'judul', 'pengarang', 'genre']
+        fields = '__all__'
 
 class GenreSerializer(serializers.ModelSerializer):
     class Meta:
         model = Genre
-        fields = ['id', 'nama_genre']
+        fields = '__all__'

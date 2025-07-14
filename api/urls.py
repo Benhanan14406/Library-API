@@ -8,5 +8,8 @@ urlpatterns = [
     path('buku/', views.BukuCreateView.as_view(), name='buku_view_create'),
     path('buku/<id>', views.BukuRetrieveUpdateDestroy.as_view(), name='buku_retrieve_update_delete'),
     path('genre/', views.GenreCreateView.as_view(), name='genre_view_create'),
+    path('genre/<id>', views.GenreRetrieve.as_view(), name='genre_retrieve'),
+    path('genre/<id>/delete', views.GenreDelete.as_view(), name='genre_delete'),
+    path('genre/<id>/buku', views.BukuWithGenreView.as_view(), name='genre_daftar_buku'),
 
 ]

@@ -6,7 +6,7 @@ class PerpustakaanCreateView(generics.ListCreateAPIView):
     queryset = Perpustakaan.objects.all()
     serializer_class = PerpustakanSerializer
 
-# Perpustakaan GET, PUT, & DELETE
+# Perpustakaan GET, PUT, & DELETE specific
 class PerpustakaanRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     queryset = Perpustakaan.objects.all()
     serializer_class = PerpustakanSerializer
@@ -17,7 +17,7 @@ class BukuCreateView(generics.ListCreateAPIView):
     queryset = Buku.objects.all()
     serializer_class = BukuSerializer
 
-# Buku GET, PUT, & DELETE
+# Buku GET, PUT, & DELETE specific
 class BukuRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     queryset = Buku.objects.all()
     serializer_class = BukuSerializer
@@ -35,7 +35,19 @@ class GenreCreateView(generics.ListCreateAPIView):
     queryset = Genre.objects.all()
     serializer_class = GenreSerializer
 
-# Buku GET pada perpustakaan tertentu
+# Genre GET specific
+class GenreRetrieve(generics.RetrieveAPIView):
+    queryset = Genre.objects.all()
+    serializer_class = GenreSerializer
+    lookup_field = 'id'
+
+# Genre DELETE specific
+class GenreDelete(generics.DestroyAPIView):
+    queryset = Genre.objects.all()
+    serializer_class = GenreSerializer
+    lookup_field = 'id'
+
+# Buku GET dengan genre tertentu
 class BukuWithGenreView(generics.ListAPIView):
     serializer_class = BukuSerializer
 

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f97853f0-c652-4347-bee9-3c097633c328" name="Changes" comment="Changed the Genre and Buku models">
+    <list default="true" id="f97853f0-c652-4347-bee9-3c097633c328" name="Changes" comment="Made the url for the GET method that returns all the books in a specific library">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Library-API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Library-API.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library_API/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library_API/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
@@ -27,21 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Benhanan14406"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Benhanan14406&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Benhanan14406/Library-API.git",
-    "accountId": "ad8d90e4-36bc-4f75-bec0-bbe5c3c1d910"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Benhanan14406/Library-API.git&quot;,
+    &quot;accountId&quot;: &quot;ad8d90e4-36bc-4f75-bec0-bbe5c3c1d910&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2zs9EUXFWu7rJp4r2OyOwtXwbIO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,6 +57,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/angelofuun/Library-API-Main/Library-API",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,7 +112,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752508801914</updated>
-      <workItem from="1752508802929" duration="7291000" />
+      <workItem from="1752508802929" duration="7902000" />
+      <workItem from="1752518292670" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="Created the models:&#10;- Perpustakaan&#10;- Genre&#10;- Buku">
       <option name="closed" value="true" />
@@ -143,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752511415054</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Made the url for the GET method that returns all the books in a specific library">
+      <option name="closed" value="true" />
+      <created>1752516163402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752516163402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +165,7 @@
     <MESSAGE value="Created the models:&#10;- Perpustakaan&#10;- Genre&#10;- Buku" />
     <MESSAGE value="Migrated the models and wrote basic lines in the api/urls, library-API/urls, views, and serializers" />
     <MESSAGE value="Changed the Genre and Buku models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the Genre and Buku models" />
+    <MESSAGE value="Made the url for the GET method that returns all the books in a specific library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the url for the GET method that returns all the books in a specific library" />
   </component>
 </project>

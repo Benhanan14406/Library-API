@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Perpustakaan(models.Model):
     nama_perpustakaan = models.CharField(max_length=100)
     alamat_perpustakaan = models.TextField()
