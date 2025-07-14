@@ -28,7 +28,7 @@ class BukuInPerpustakaanView(generics.ListAPIView):
     serializer_class = BukuSerializer
 
     def get_queryset(self):
-        return Buku.objects.all().filter(perpustakaan_id=self.kwargs['id'])
+        return Buku.objects.all().filter(perpustakaan__id=self.kwargs['id'])
 
 # Genre GET all & POST
 class GenreCreateView(generics.ListCreateAPIView):
@@ -52,6 +52,6 @@ class BukuWithGenreView(generics.ListAPIView):
     serializer_class = BukuSerializer
 
     def get_queryset(self):
-        return Buku.objects.all().filter(genre_id=self.kwargs['id'])
+        return Buku.objects.all().filter(genre__id=self.kwargs['id'])
 
 
