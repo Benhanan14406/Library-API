@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f97853f0-c652-4347-bee9-3c097633c328" name="Changes" comment="Filled in the README.md">
+    <list default="true" id="f97853f0-c652-4347-bee9-3c097633c328" name="Changes" comment="Attempted to reset ids everytime a DELETE happens">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1752508802929" duration="7902000" />
       <workItem from="1752518292670" duration="277000" />
       <workItem from="1752518576429" duration="238000" />
-      <workItem from="1752519254701" duration="3598000" />
+      <workItem from="1752519254701" duration="6359000" />
     </task>
     <task id="LOCAL-00001" summary="Created the models:&#10;- Perpustakaan&#10;- Genre&#10;- Buku">
       <option name="closed" value="true" />
@@ -177,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752518802769</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Attempted to reset ids everytime a DELETE happens">
+      <option name="closed" value="true" />
+      <created>1752523096016</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752523096016</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="Completed all the POST, GET, PUT, and DELETE methods required along with the corresponding urls" />
     <MESSAGE value="Made the requirements.txt file" />
     <MESSAGE value="Filled in the README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filled in the README.md" />
+    <MESSAGE value="Attempted to reset ids everytime a DELETE happens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempted to reset ids everytime a DELETE happens" />
   </component>
 </project>
