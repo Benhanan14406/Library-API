@@ -87,8 +87,7 @@ def buku_detail(request, pk):
 def buku_in_perpustakaan(request, pk):
     perpustakaan = Perpustakaan.objects.get(pk=pk)
     if Perpustakaan.objects.filter(pk=pk).exists():
-        buku_list = Buku.objects.all().filter(perpustakaan=perpustakaan)
-        serializer = BukuSerializer(buku_list, many=True)
+        serializer = BukuSerializer(perpustakaan.daftar_buku(), many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
     else:
         return Response(status=status.HTTP_404_NOT_FOUND)
@@ -131,8 +130,7 @@ def genre_detail(request, pk):
 def buku_w_genre(request, pk):
     genre = Genre.objects.get(pk=pk)
     if Genre.objects.filter(pk=pk).exists():
-        buku_list = Buku.objects.all().filter(genre=genre)
-        serializer = BukuSerializer(buku_list, many=True)
+        serializer = BukuSerializer(genre.daftar_buku(), many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
     else:
         return Response(status=status.HTTP_404_NOT_FOUND)
